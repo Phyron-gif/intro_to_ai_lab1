@@ -110,11 +110,12 @@ Describe a drone mission where Greedy's behaviour would actually be acceptable.
 
     
 16.5 Weighted A* and Trade-offs
+
 1. W determines the balance between the actual cost and heuristic estimate.
 
 2. Weighted A* guarantees that the solution cost will not exceed W times the optimal cost.yes the reuslts stayed well in within the suboptimality limit.
 
-3. I would choose Weighted A* with W≈1.5–2. This reduces computation and node expansions compared to UCS or standard A*, which is important for a slow flight computer.
+3. I would choose Weighted A* with W aproximately 1.5–2. This reduces computation and node expansions compared to UCS or standard A*, which is important for a slow flight computer.
 
 16.6 Memory and Real-World Drone Context
 
